@@ -1,6 +1,5 @@
-Problem link: https://leetcode.com/problems/copy-list-with-random-pointer/description/
+##Problem link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
 
-/*
 // Definition for a Node.
 class Node {
 public:
@@ -14,7 +13,7 @@ public:
         random = NULL;
     }
 };
-*/
+
 void nextPointer(Node* itr, Node* newItr, int index, map<Node*, int> &mp, map<int, Node*> &newmp){
     while(itr != NULL){
         mp[itr] = index;
