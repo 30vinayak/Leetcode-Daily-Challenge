@@ -1,5 +1,3 @@
-##Problem link: [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
-
 // Definition for a Node.
 class Node {
 public:
